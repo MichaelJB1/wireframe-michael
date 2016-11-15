@@ -1,0 +1,179 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+li:hover {
+
+}
+
+.logo {
+	display: inline-block;
+}
+
+.logo img{
+}
+
+.nav-bar {
+	display: block;
+	position: fixed;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.75);
+}
+
+.nav-bar ul {
+	text-align: right;
+	padding-right: 16px;
+	padding-left: 16px;
+}
+
+.nav-bar li {
+	list-style: none;
+	display: inline-block;
+}
+
+.nav-bar a{
+	text-align: right;
+
+}
+
+.btns {
+	float: right;
+}
+
+.nav-btn {
+	border: 2px;
+	border-style: solid;
+	border-color: rgba(255, 255, 255, 1);
+	border-radius: 5px;
+	padding: 5px 5px 5px 5px;
+	margin-right: 10px;
+}
+
+.nav-btn:hover {
+	border-radius: 5px;
+	background: white;
+	padding: 5px 5px 5px 5px;
+	margin-right: 10px;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.nav-btn a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 17.5px;
+}
+
+.nav-btn a:hover {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 17.5px;
+}
+
+.nav-btn:last-child {
+	margin-right: 0px;
+}
+
+.top-section {
+	background: black;
+	position: relative;
+}
+
+.btns {
+	display: inline-block;
+}
+
+.main-section {
+	background: url("maincontentdesktop.jpg");
+	background-size: cover;
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.introsummary{
+	height: 100%;
+	width: 100%;
+}
+
+.introsummary p{
+	width: 33%;
+	margin-left: 20px;
+}
+
+.introsummary a{
+	text-decoration: none;
+	color: grey;
+}
+
+.is-content1 {
+	display: inline-block;
+	width: 33%;
+	height: 280.282px;
+	background: url("rotundacroppedbw.jpg");
+	background-size: cover;
+}
+
+.is-content1:hover {
+	display: inline-block;
+	width: 33%;
+	height: 280.282px;
+	background: url("rotundacropped.jpg");
+	background-size: cover;
+}
+
+.is-content2 {
+	display: inline-block;
+	width: 33%;
+	height: 280.282px;
+	background: url("contemporarylogobw.jpg");
+	background-size: cover;
+}
+
+.is-content2:hover {
+	display: inline-block;
+	width: 33%;
+	height: 280.282px;
+	background: url("contemporarylogo.jpg");
+	background-size: cover;
+}
+
+
+.is-content3 {
+	display: inline-block;
+	width: 33%;
+	height: 280.282;
+}
+
+.title {
+	display: inline-block;
+	margin-top: 600px;
+	margin-left: 16.5%;
+	margin-right: 16.5%;
+	margin-bottom: 30px;
+	width: 66%;
+	background: rgba(0, 0, 0, 0.75);
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.title h1{
+	padding: 20px;
+}
+
+.links {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 50px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	background: rgba(0, 0, 0, 0.75);
+	border-radius: 5px;
+}
